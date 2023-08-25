@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dang Nhap"
+        android:text="Khai Bao Thong Tin"
         android:gravity="center"
         android:textStyle="bold"
         android:textSize="25sp"
@@ -70,32 +70,42 @@
             android:id="@+id/editPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textAlignment="center"
             android:hint="Mat Khau"
             android:inputType="textPassword"
-            android:singleLine="true" />
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
 
     </LinearLayout>
 
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="La Nhan Vien VNPT" />
+
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="155dp"
+        android:layout_height="74dp"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:backgroundTint="#B357C55C"
-        android:text="Chap Nhan" />
+        android:textSize="20sp"
+        android:text="Dang Nhap" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/dangki"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:text="Dang Ki Tai Khoan?"
         android:textColor="#F44336"
-        android:text="Dang Ki Duoi Dang Khach?"
         android:textSize="16sp"
-        android:textStyle="italic"
-        android:layout_margin="20dp"/>
+        android:textStyle="italic" />
 
 </LinearLayout>
